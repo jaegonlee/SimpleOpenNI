@@ -318,7 +318,7 @@ public class SimpleOpenNI extends ContextWrapper implements SimpleOpenNIConstant
 
             this._parent 	= parent;
 //            parent.registerDispose(this);
-            parent.registerMethod( "dispose" , this );//
+            parent.registerMethod( "dispose" , this );// error fix
             initVars();
 
             // setup the callbacks
@@ -357,7 +357,7 @@ public class SimpleOpenNI extends ContextWrapper implements SimpleOpenNIConstant
 
             this._parent 	= parent;
 //            parent.registerDispose(this);
-            parent.registerMethod( "dispose" , this );//            
+            parent.registerMethod( "dispose" , this );// error fix            
             initVars();
 
             // setup the callbacks
@@ -383,7 +383,7 @@ public class SimpleOpenNI extends ContextWrapper implements SimpleOpenNIConstant
 
             this._parent 	= parent;
 //            parent.registerDispose(this);
-            parent.registerMethod( "dispose" , this );//            
+            parent.registerMethod( "dispose" , this );// error fix            
             
             initVars();
 
