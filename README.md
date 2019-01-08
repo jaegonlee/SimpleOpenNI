@@ -3,10 +3,10 @@ fix: compatible with processing 3
 
 Tested: Mac OS X 10.11-10.13 / MBPR 15, iMac27 / Kinect V1 / PrimeSense Sensor 
 
-### Install OpenNI2
+#### Install OpenNI2
   https://github.com/OpenKinect/libfreenect/tree/master/OpenNI2-FreenectDriver
 
-### Install freenect
+#### Install freenect
   $ brew install libfreenect
   $ git clone https://github.com/OpenKinect/libfreenect
   $ cd libfreenect
@@ -15,14 +15,14 @@ Tested: Mac OS X 10.11-10.13 / MBPR 15, iMac27 / Kinect V1 / PrimeSense Sensor
   $ cmake .. -DBUILD_OPENNI2_DRIVER=ON
   $ make
 
-### Copy library
+#### Copy library
   $ cp -L lib/OpenNI2-FreenectDriver/libFreenectDriver.dylib /example/openni2/Samples/Bin/OpenNI2/Drivers/
 
-### Run Demo
+#### Run Demo
   $ cd /example/openni2/Samples/Bin/
   $ ./ClosestPointViewer
 
-### Build Sample
+#### Build Sample
   $ cd /example/openni2
   $ source OpenNIDevEnvironment 
   $ cd /example/openni2/Samples/SimpleRead
