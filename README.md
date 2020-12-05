@@ -1,7 +1,7 @@
 # SimpleOpenNI
 fix: compatible with processing 3
 
-Tested: Mac OS X 10.11-10.13 / MBPR 15, iMac27 / Kinect V1 / PrimeSense Sensor 
+Tested: Mac OS X 10.11-10.15 / MBPR 15, iMac27 / Windows 10 / Kinect V1 / PrimeSense Sensor 
 
 #### Install OpenNI2
 https://github.com/OpenKinect/libfreenect/tree/master/OpenNI2-FreenectDriver
